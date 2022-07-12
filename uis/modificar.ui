@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>dialog</class>
+ <widget class="QDialog" name="dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>447</width>
+    <height>557</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Modificar Sanciones</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="1">
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>FTTG-TTMP</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="2">
+    <widget class="QLineEdit" name="boletaEntry"/>
+   </item>
+   <item row="0" column="3">
+    <widget class="QPushButton" name="buscarBoton">
+     <property name="text">
+      <string>Buscar</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>Numero de Sanción:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0" colspan="4">
+    <widget class="QFrame" name="frame">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-color: rgb(255, 170, 0);</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::Box</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <property name="lineWidth">
+      <number>1</number>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_2">
+      <item row="5" column="5" colspan="3">
+       <widget class="QCheckBox" name="artCheck">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="0">
+       <widget class="QLabel" name="litLabel">
+        <property name="text">
+         <string>Literal:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="8" colspan="2">
+       <widget class="QCheckBox" name="nombreCheck">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="1" colspan="4">
+       <widget class="QLineEdit" name="litEntry"/>
+      </item>
+      <item row="3" column="1" colspan="4">
+       <widget class="QTimeEdit" name="horaEntry"/>
+      </item>
+      <item row="3" column="6" colspan="3">
+       <widget class="QCheckBox" name="horaCheck">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="1" colspan="4">
+       <widget class="QLineEdit" name="artEntry"/>
+      </item>
+      <item row="5" column="0">
+       <widget class="QLabel" name="artLabel">
+        <property name="text">
+         <string>Artículo:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="5" colspan="3">
+       <widget class="QCheckBox" name="discoCheck">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="7" colspan="2">
+       <widget class="QCheckBox" name="coopCheck">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="discoLabel">
+        <property name="text">
+         <string>Disco:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="fechaLabel">
+        <property name="text">
+         <string>Fecha:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLabel" name="horaLabel">
+        <property name="text">
+         <string>Hora:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1" colspan="4">
+       <widget class="QLineEdit" name="discoEntry"/>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLabel" name="coopLabel">
+        <property name="text">
+         <string>Cooperativa:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1" colspan="5">
+       <widget class="QComboBox" name="coopCombo"/>
+      </item>
+      <item row="2" column="1" colspan="4">
+       <widget class="QDateEdit" name="fechaEntry"/>
+      </item>
+      <item row="2" column="5" colspan="3">
+       <widget class="QCheckBox" name="fechaCheck">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0" colspan="3">
+       <widget class="QLabel" name="nombreLabel">
+        <property name="text">
+         <string>Nombre del infractor:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="11" column="3">
+       <widget class="QPushButton" name="pushButton">
+        <property name="text">
+         <string>Imagenes</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="3" colspan="5">
+       <widget class="QLineEdit" name="nombreEntry"/>
+      </item>
+      <item row="12" column="7" colspan="2">
+       <widget class="QPushButton" name="anularBoton">
+        <property name="text">
+         <string>Anular</string>
+        </property>
+       </widget>
+      </item>
+      <item row="9" column="0" colspan="2">
+       <widget class="QLabel" name="totLabel">
+        <property name="text">
+         <string>Total a pagar:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="0">
+       <widget class="QLabel" name="desLabel">
+        <property name="text">
+         <string>Descripción:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="8" column="0">
+       <widget class="QLabel" name="tipLabel">
+        <property name="text">
+         <string>Tipo de Falta:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="10" column="7" colspan="2">
+       <widget class="QCheckBox" name="elabCheck">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="10">
+       <widget class="QCheckBox" name="desCheck">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="12" column="0" colspan="3">
+       <widget class="QPushButton" name="guardarBoton">
+        <property name="text">
+         <string>Guardar</string>
+        </property>
+       </widget>
+      </item>
+      <item row="8" column="1" colspan="6">
+       <widget class="QComboBox" name="tipCombo"/>
+      </item>
+      <item row="10" column="0" colspan="2">
+       <widget class="QLabel" name="elabLabel">
+        <property name="text">
+         <string>Elaborado Por: </string>
+        </property>
+       </widget>
+      </item>
+      <item row="8" column="7" colspan="2">
+       <widget class="QCheckBox" name="tipCheck">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="12" column="9" colspan="2">
+       <widget class="QCheckBox" name="anularCheck">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="5" colspan="3">
+       <widget class="QCheckBox" name="litCheck">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="9" column="2" colspan="2">
+       <widget class="QLabel" name="valorLabel">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="1" colspan="8">
+       <widget class="QTextEdit" name="desEntry"/>
+      </item>
+      <item row="12" column="4" colspan="3">
+       <widget class="QPushButton" name="borrarBoton">
+        <property name="text">
+         <string>Borrar</string>
+        </property>
+       </widget>
+      </item>
+      <item row="11" column="0">
+       <widget class="QLabel" name="evidenciaLabel">
+        <property name="text">
+         <string>Evidencias: </string>
+        </property>
+       </widget>
+      </item>
+      <item row="10" column="3" colspan="4">
+       <widget class="QComboBox" name="elabCombo"/>
+      </item>
+      <item row="11" column="4">
+       <widget class="QPushButton" name="pushButton_2">
+        <property name="text">
+         <string>Otros</string>
+        </property>
+       </widget>
+      </item>
+      <item row="11" column="6">
+       <widget class="QCheckBox" name="vaorCheck">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="11" column="7" colspan="4">
+       <widget class="QLabel" name="label_3">
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>boletaEntry</tabstop>
+  <tabstop>buscarBoton</tabstop>
+  <tabstop>coopCombo</tabstop>
+  <tabstop>coopCheck</tabstop>
+  <tabstop>discoEntry</tabstop>
+  <tabstop>discoCheck</tabstop>
+  <tabstop>fechaEntry</tabstop>
+  <tabstop>fechaCheck</tabstop>
+  <tabstop>horaEntry</tabstop>
+  <tabstop>horaCheck</tabstop>
+  <tabstop>nombreEntry</tabstop>
+  <tabstop>nombreCheck</tabstop>
+  <tabstop>artEntry</tabstop>
+  <tabstop>artCheck</tabstop>
+  <tabstop>litEntry</tabstop>
+  <tabstop>litCheck</tabstop>
+  <tabstop>desEntry</tabstop>
+  <tabstop>desCheck</tabstop>
+  <tabstop>tipCombo</tabstop>
+  <tabstop>tipCheck</tabstop>
+  <tabstop>elabCombo</tabstop>
+  <tabstop>elabCheck</tabstop>
+  <tabstop>guardarBoton</tabstop>
+  <tabstop>borrarBoton</tabstop>
+  <tabstop>anularBoton</tabstop>
+  <tabstop>anularCheck</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
